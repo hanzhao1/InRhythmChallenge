@@ -1,0 +1,11 @@
+.inline {
+  display: inline-block;
+  width: 70%;
+  margin: 10px 20px;
+}
+
+.errorMessage{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+}

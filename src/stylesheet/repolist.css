@@ -1,0 +1,16 @@
+.titleName{
+  text-align: center;
+}
+
+.repoItem{
+  list-style: none;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 10px 30px;
+  padding: 10px;
+}
+
+.boldItem{
+  font-weight: bold;
+}
