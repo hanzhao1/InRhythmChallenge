@@ -14,13 +14,13 @@ const RepoList = ({repos}) => {
             {repos.map((ele, idx)=>{
               return (
                 <li key={idx} className="repoItem">
-                  <div> <span className="boldItem"> Name:</span> {ele.name} </div>
-                  <div> <span className="boldItem"> Description:</span> {ele.description} </div>
-                  <div> <span className="boldItem"> Git URL:</span> {ele.git_url} </div>
-                  <div> <span className="boldItem"> Stars:</span> {ele.stargazers_count} </div>
-                  <div> <span className="boldItem"> Forks:</span> {ele.forks} </div>
-                  <div> <span className="boldItem"> Open Issues:</span> {ele.open_issues} </div>
-                  <div> <span className="boldItem"> Repository Size:</span> {ele.size} </div>
+                  <div> <b> Name:</b> {ele.name} </div>
+                  <div> <b> Description:</b> {ele.description} </div>
+                  <div> <b> Git URL:</b> {ele.git_url} </div>
+                  <div> <b> Stars:</b> {ele.stargazers_count} </div>
+                  <div> <b> Forks:</b> {ele.forks} </div>
+                  <div> <b> Open Issues:</b> {ele.open_issues} </div>
+                  <div> <b> Repository Size:</b> {ele.size} </div>
                 </li>)
             })}
           </ul>)
